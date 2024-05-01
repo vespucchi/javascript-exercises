@@ -7,6 +7,12 @@ const reverseString = function(text) {
     }
 
     return reversed.join("");
+
+    // return text.split("").reverse().join("");
+    
+    // Because in many ways strings behave as if they were arrays 
+    // of characters, many of JavaScript's standard array methods 
+    // can operate on strings as well.
 };
 
 // Do not edit below this line
